@@ -1135,7 +1135,7 @@ make("TextLabel", {
     Size = U(0, 270, 1, 0),
     Position = U(0, 112, 0, 1),
     BackgroundTransparency = 1,
-    Text = "YARHM modules, Ayia UI",
+    Text = "pink modules",
     TextColor3 = colors.muted,
     TextXAlignment = Enum.TextXAlignment.Left,
     Font = Enum.Font.Gotham,
@@ -1588,7 +1588,6 @@ addButton("Utility", "Anti AFK detection", antiAfk)
 addButton("Utility", "FPS Boost", fpsBoost)
 
 addSection("Settings", "Ayia")
-addNote("Settings", "O Hub usa os modulos/opcoes do YARHM com a GUI propria do Ayia Hub. Nao carrega a interface original do YARHM.")
 addButton("Settings", "Reload roles", function()
     reloadPlayerESP()
     notify("Roles recarregados.")
